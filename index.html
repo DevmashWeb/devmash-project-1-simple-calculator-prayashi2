@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>
+        simple calculator
+    </title>
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="images/favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+    <!-- Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<div class="box">
+<div class="heading">
+    <h4>Basic Electronics</h4>    
+    <p>Simple calculator</p>
+</div>
+<div class="display"><input type="text" readonly size="20" id="d"></div>
+        <p>
+        <input type="button" class="but ceac " value="ac" onclick='c("")'>
+        <input type="button" class="but ceac" value="ce" onclick='c("")'>
+        <input type="button" class="but on" value="%" onclick='v("%")'>
+        <input type="button" class="but on" value="/" onclick='v("/")'>
+        </p>
+
+        <p>
+        <input type="button" class="but on" value="1" onclick='v("1")'>
+        <input type="button" class="but on" value="2" onclick='v("2")'>
+        <input type="button" class="but on" value="3" onclick='v("3")'>
+        <input type="button" class="but on" value="+" onclick='v("+")'>
+        </p>
+
+        <p>
+        <input type="button" class="but on" value="4" onclick='v("4")'>
+        <input type="button" class="but on" value="5" onclick='v("5")'>
+        <input type="button" class="but on" value="6" onclick='v("6")'>
+        <input type="button" class="but on" value="-" onclick='v("-")'>
+        </p>
+    
+        <p>
+        <input type="button" class="but on" value="7" onclick='v("7")'>
+        <input type="button" class="but on" value="8" onclick='v("8")'>
+        <input type="button" class="but on" value="9" onclick='v("9")'>
+        <input type="button" class="but calc" value="=" onclick='e("=")'>  
+
+        </p>
+                
+    
+
+
+        <p>
+        <input type="button" class="but on" value="0" onclick='v("0")'>
+        <input type="button" class="but on" value="." onclick='v(".")'>
+        <input type="button" class="but on" value="*" onclick='v("*")'>
+        </p>
+</div>
+<script src="script.js"></script>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
