@@ -24,6 +24,6 @@ try
 } 
 catch(e) 
 {
-  c('Error') 
+  c('SYNTAX ERROR') 
 } 
 }  

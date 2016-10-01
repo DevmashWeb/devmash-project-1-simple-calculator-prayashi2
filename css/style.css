@@ -1,6 +1,13 @@
+@font-face{
+	font-family: digital;
+		src:url(../digital-7.ttf);
+}
+
+
  body
+
 {
-background-color:white
+background-color:white;
 } 
 
 
@@ -33,12 +40,11 @@ margin-left: 10px;
 height:50px;
 width: 300px;
 color:white;
-font-family: 'Segment7Standard'; 
+font-family:digital,arial; 
 font-weight: normal; 
-font-style: italic; 
 background-color:#0d0d0d;
 text-align:right;
-font-size: 25px;
+font-size: 30px;
 } 
 
 
