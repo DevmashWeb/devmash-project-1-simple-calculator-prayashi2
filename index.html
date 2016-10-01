@@ -17,6 +17,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="images/favicon.png" rel="icon" type="image/png">
@@ -31,33 +33,33 @@
     <h4>Basic Electronics</h4>    
     <p>Simple calculator</p>
 </div>
-<div class="display"><input type="text" readonly size="20" id="d"></div>
+<div class="display"><input type="text" readonly size="20" id="dis"></div>
         <p>
-        <input type="button" class="but ceac " value="ac" onclick='c("")'>
-        <input type="button" class="but ceac" value="ce" onclick='back("")'>
-        <input type="button" class="but on" value="%" onclick='v("%")'>
-        <input type="button" class="but on" value="/" onclick='v("/")'>
+        <input type="button" class="but ceac " value="AC" onclick="c('')">
+        <input type="button" class="but ceac" value="CE" onclick="back()">
+        <input type="button" class="but on" value="%" onclick="v('%')">
+        <input type="button" class="but on" value="/" onclick="v('/')">
         </p>
 
         <p>
-        <input type="button" class="but on" value="1" onclick='v("1")'>
-        <input type="button" class="but on" value="2" onclick='v("2")'>
-        <input type="button" class="but on" value="3" onclick='v("3")'>
-        <input type="button" class="but on" value="+" onclick='v("+")'>
+        <input type="button" class="but on" value="1" onclick="v(1)">
+        <input type="button" class="but on" value="2" onclick="v(2)">
+        <input type="button" class="but on" value="3" onclick="v(3)">
+        <input type="button" class="but on" value="+" onclick="v('+')">
         </p>
 
         <p>
-        <input type="button" class="but on" value="4" onclick='v("4")'>
-        <input type="button" class="but on" value="5" onclick='v("5")'>
-        <input type="button" class="but on" value="6" onclick='v("6")'>
-        <input type="button" class="but on" value="-" onclick='v("-")'>
+        <input type="button" class="but on" value="4" onclick="v(4)">
+        <input type="button" class="but on" value="5" onclick="v(5)">
+        <input type="button" class="but on" value="6" onclick="v(6)">
+        <input type="button" class="but on" value="-" onclick="v('-')">
         </p>
     
         <p>
-        <input type="button" class="but on" value="7" onclick='v("7")'>
-        <input type="button" class="but on" value="8" onclick='v("8")'>
-        <input type="button" class="but on" value="9" onclick='v("9")'>
-        <input type="button" class="but calc" value="=" onclick='e("=")'>  
+        <input type="button" class="but on" value="7" onclick="v(7)">
+        <input type="button" class="but on" value="8" onclick="v(8)">
+        <input type="button" class="but on" value="9" onclick="v(9)">
+        <input type="button" class="but calc" value="=" onclick="e('=')">  
 
         </p>
                 

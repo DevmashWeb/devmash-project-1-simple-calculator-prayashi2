@@ -1,18 +1,18 @@
 function c(val)
 {
-  document.getElementById("d").value=val;
+  document.getElementById("dis").value=val;
 }
 
 function v(val)
 {
-  document.getElementById("d").value+=val;
+  document.getElementById("dis").value+=val;
 }
 
 function back() 
 {
    //delete last letter function.
-   var value = document.getElementById("d").value;
-   document.getElementById("d").value = value.substr(0, value.length - 1);
+   var value = document.getElementById("dis").value;
+   document.getElementById("dis").value = value.substr(0, value.length - 1);
 
 }
 
@@ -20,7 +20,7 @@ function e()
 { 
 try 
 { 
-  c(eval(document.getElementById("d").value)) 
+  c(eval(document.getElementById("dis").value)) 
 } 
 catch(e) 
 {

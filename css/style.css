@@ -15,8 +15,8 @@ background-color:white
 .box
 {
 background-color:grey;
-height:400px;
-width:250px;
+height:450px;
+width:330px;
 border-radius:10px;
 position:relative;
 top:80px;
@@ -29,24 +29,28 @@ left:40%;
 {
 position:relative;
 border-width: 3px;
-margin-left: 1px;
-height:40px;
-width: 240px;
+margin-left: 10px;
+height:50px;
+width: 300px;
 color:white;
+font-family: 'Segment7Standard'; 
+font-weight: normal; 
+font-style: italic; 
 background-color:#0d0d0d;
 text-align:right;
-font-size: 20px;
+font-size: 25px;
 } 
 
 
 .but
 {
-width:40px;
-height:30px;
+width:60px;
+height:40px;
 border:none;
 border-radius: 8px;
-margin-left:17px;
-border-bottom:black 2px solid;
+margin-left:15px;
+border-bottom:#a6a6a6 4px solid;
+border-right:#a6a6a6 4px solid; 
 }
 
 
@@ -58,19 +62,19 @@ border-bottom:black 2px solid;
 
 .but.on
 {
-color:black;
-background-color:white;
+color:white;
+background-color:#404040;
 
 }
 
 
 
 .but.calc{
-	width:40px;
-	height:75px;
+	width:55px;
+	height:95px;
 	background-color:orange;
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 
 }
 
